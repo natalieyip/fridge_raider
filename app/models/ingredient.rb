@@ -6,16 +6,18 @@ class Ingredient < ApplicationRecord
   	split_ingredients = user_ingredients.split(", ")
   	count = 0 
   	recipes = Recipe.all 
+
   	recipes.each do |rec| 
   		rec.ingredients.each do |ingredient| 
   			if split_ingredients.include?(ingredient.item)
   				count += 1
   			end 
   		end 
-  	end 
-  	count 
+  		if count > 2 
+  			p rec
+  		end
+  	end  	
   end
-
 
 end
 
