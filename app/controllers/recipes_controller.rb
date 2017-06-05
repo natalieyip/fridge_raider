@@ -3,9 +3,6 @@ class RecipesController < ApplicationController
 	end 
 
 	def show
-		# @ingredients = params[:ingredients].split(", ")
-		# @all_ingredients = Ingredient.all
-
 	end 
 
 end 
