@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$(document).ready(function(){ 
+
 	$("#recipe-form").on("submit", function(e) {
 		e.preventDefault();
 
@@ -45,4 +45,3 @@ $(document).ready(function(){
 			console.log("fail");
 		});
 	});
-})
