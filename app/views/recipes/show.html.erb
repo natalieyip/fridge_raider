@@ -1,0 +1,8 @@
+<h1> Check out these recipes: </h1>
+
+  <ul>
+    <% @results.each do |result| %>
+    	<a href= "<%=result['url']%>"> <%= result['label'] %> </a>
+      <br>
+	<% end %>
+  </ul>
