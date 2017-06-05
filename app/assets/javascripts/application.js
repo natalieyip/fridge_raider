@@ -14,3 +14,35 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function(){ 
+	$("#recipe-form").on("submit", function(e) {
+		e.preventDefault();
+
+		var form = this;
+		var food = $(form).children()[0].value;
+
+		var apiID = ENV["EDAMAM_API_ID"] ;
+		var apiKey = ENV["EDAMAM_API_KEY"];
+		var unencodedURL = `https://api.edamam.com/search?q=${food}&app_id=${apiID}&app_key=${apiKey}`;
+		var url = encodeURI(unencodedURL);
+		
+		$.ajax({
+			url: url
+		})
+		.done(function(response) {
+			console.log(JSON.stringify(response));
+
+			for (var i = 0; i <= 10; i ++){
+				var link = response['hits'][i]['recipe']['url']
+				if(link.endsWith("/")){ 
+					link = link.slice(0, -1)
+				}
+				$('body').append(`<ol> <a href=${link}>` + response['hits'][i]['recipe']['label']+ `</a></ol>`) 
+				
+			}
+		})
+		.fail(function(response) {
+			console.log("fail");
+		});
+	});
+})
