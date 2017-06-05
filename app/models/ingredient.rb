@@ -2,22 +2,22 @@ class Ingredient < ApplicationRecord
 	has_many :recipe_ingredients
   has_many :recipes, through: :recipe_ingredients
 
-  def count_ingredients(user_ingredients)
-  	split_ingredients = user_ingredients.split(", ")
-  	count = 0 
-  	recipes = Recipe.all 
+  # def count_ingredients(user_ingredients)
+  # 	split_ingredients = user_ingredients.split(", ")
+  # 	count = 0 
+  # 	recipes = Recipe.all 
 
-  	recipes.each do |rec| 
-  		rec.ingredients.each do |ingredient| 
-  			if split_ingredients.include?(ingredient.item)
-  				count += 1
-  			end 
-  		end 
-  		if count > 2 
-  			p rec
-  		end
-  	end  	
-  end
+  # 	recipes.each do |rec| 
+  # 		rec.ingredients.each do |ingredient| 
+  # 			if split_ingredients.include?(ingredient.item)
+  # 				count += 1
+  # 			end 
+  # 		end 
+  # 		if count > 1
+  # 			p rec
+  # 		end
+  # 	end  	
+  # end
 
 end
 
