@@ -1,4 +1,15 @@
-<h1> Check out these recipes: </h1>
+<head>
+	<script type="/app/stylesheets/application.css"> </script>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous">
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1> Check out these recipes </h1>
 
   <ul>
     <% @results.each do |result| %>
@@ -6,3 +17,4 @@
       <br>
 	<% end %>
   </ul>
+</body>
