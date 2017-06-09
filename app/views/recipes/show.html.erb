@@ -9,12 +9,16 @@
 </head>
 
 <body>
-<h1> Check out these recipes </h1>
-
-  <ul>
-    <% @results.each do |result| %>
-    	<a href= "<%=result['url']%>"> <%= result['label'] %> </a>
-      <br>
-	<% end %>
-  </ul>
+<% if @results.empty? %>
+	<h1> Sorry no recipes found :(  </h1>
+<% else %>
+	<h1> Check out these recipes: </h1>
+	  <ul>
+	    <% @results.each do |result| %>
+	    	 <li> <a class="recipe-results" href= "<%=result['url']%>"> <%= result['label'] %> </a>
+				</li>
+		<% end %>
+	  </ul>
+<% end %>
+ 
 </body>
