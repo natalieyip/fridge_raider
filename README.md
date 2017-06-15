@@ -5,7 +5,7 @@
 
 Fridge Raider is designed to help the most resourceful chefs come up with new and exciting dishes! Simply input ingredients you find in your fridge, and click create. It will then populate multiple recipes for your next meal. 
 
-## Technologies 
+## Technologies Implemented
 - Ruby
 - Ruby on Rails
 - Edamam API
