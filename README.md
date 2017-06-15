@@ -3,7 +3,9 @@
 	<img src= "app/assets/images/FridgeRaiderHome.png" alt="Fridge Raider Welcome Page" align="center">
 </p>
 
-Fridge Raider is designed to help the most resourceful chefs come up with new and exciting dishes! Simply input ingredients you find in your fridge, and click create. It will then populate multiple recipes for your next meal. 
+Don't have a clue on what to cook tonight? Too lazy to run to the grocery store? Fear not, Fridge Raider is here to save the day! 
+
+Simply input some or maybe even all the ingredients from your fridge and let our trusty recipe search engine do all the work. Designed for our most resourceful chefs, in hopes to inspire everyone to create new and exciting dishes! 
 
 ## Technologies 
 - Ruby
