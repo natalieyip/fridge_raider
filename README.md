@@ -1,24 +1,18 @@
-# README
+# Fridge Raider 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Don't have a clue on what to cook tonight? Too lazy to run to the grocery store? Fear not, Fridge Raider is here to save the day! 
 
-Things you may want to cover:
+Simply input some or maybe even all the ingredients from your fridge and let our trusty recipe search engine do all the work. Designed for our most resourceful chefs, in hopes to inspire everyone to create new and exciting dishes! 
 
-* Ruby version
+<p align="center">
+	<img src= "app/assets/images/FridgeRaiderHome.png" alt="Fridge Raider Welcome Page" align="center">
+</p>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technologies 
+- Ruby
+- Ruby on Rails
+- Edamam API
+- jQuery 
+- CSS3
+- Unsplash
+- Heroku

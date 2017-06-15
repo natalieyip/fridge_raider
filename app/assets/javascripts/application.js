@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function(){ 
+	$("body").delay(550).animate({"opacity": "1"}, 700);
+})
