@@ -6,6 +6,7 @@ Simply input some or maybe even all the ingredients from your fridge and let our
 
 <p align="center">
 	<img src= "app/assets/images/FridgeRaiderHome.png" alt="Fridge Raider Welcome Page" align="center">
+	![Fridge Raider Welcome Page](https://media.giphy.com/media/QIVJF4peHeM6c/200w_d.gif) 
 </p>
 
 ## Technologies 
