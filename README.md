@@ -8,7 +8,7 @@ Simply input some or maybe even all the ingredients from your fridge and let our
 	<img src= "app/assets/images/FridgeRaiderHome.png" alt="Fridge Raider Welcome Page" align="center">
 </p>
 
-## Technologies 
+## Built With
 - Ruby
 - Ruby on Rails
 - Edamam API
