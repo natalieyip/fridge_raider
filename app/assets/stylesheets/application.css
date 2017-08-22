@@ -79,3 +79,12 @@ ul li{
 	margin-bottom: 15px;
 }
 
+p {
+	padding-top: 70px;
+	font-size: 18px
+}
+
+p a {
+	font-size: 20px;
+	text-shadow: 1px 1px black;
+}
