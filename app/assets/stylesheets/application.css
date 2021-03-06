@@ -40,11 +40,13 @@ h1 {
 	height: 25px;
 	box-sizing: border-box;
 	border-radius: 6px;
+  border: none;
  }
 
  .create-btn{
 	margin-left: 10px;
-	width: 8%;
+  padding-right: 20px;
+  padding-left: 20px;
   background-color: #3CBC8D;
   color: white;
 	border-radius: 7px;
@@ -88,4 +90,8 @@ p {
 p a {
 	font-size: 23px;
 	text-shadow: 1px 1px black;
+}
+
+input:focus {
+    outline-width: 0;
 }
